@@ -117,9 +117,12 @@ function MpgPredictor() {
  return (
   <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-800 py-8 px-2">
     <div className="w-full max-w-xl bg-gradient-to-br from-gray-800 via-indigo-900 to-gray-900 rounded-2xl shadow-2xl p-8 border border-indigo-700/30">
-      <h2 className="text-4xl font-extrabold text-indigo-300 mb-8 text-center tracking-tight drop-shadow-lg">
-        Car MPG Predictor
+      <h2 className="text-4xl font-extrabold text-indigo-300 mb-8 text-center tracking-tight drop-shadow-lg bg-gradient-to-r from-indigo-700 via-indigo-500 to-indigo-700 bg-clip-text text-transparent p-2 rounded-lg">
+        Accurate Fuel Efficiency Estimator
       </h2>
+      <p className="text-lg text-indigo-100 mb-6 text-center font-medium bg-indigo-900/30 p-4 rounded-xl shadow">
+        Predict your car's fuel efficiency using machine learning. Just enter your vehicle details and get an instant MPG estimate!
+      </p>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <label className="flex flex-col font-semibold text-indigo-200">
